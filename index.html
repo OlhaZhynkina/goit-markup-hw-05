@@ -469,7 +469,42 @@
             </li>
           </ul>
         </div>
+        <div class="footer-form-wrap">
+          <p class="form-descr">Subscribe</p>
+          <form class="footer-form">
+            <label class="form-label">
+              <input
+                class="footer-form-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="form-button" type="submit">
+              Subscribe
+              <svg class="form-button-icon" width="24" height="24">
+                <use href="./images/icons.svg#subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="modal-overlay">
+      <div class="modal">
+        <button class="modal-close-btn">
+          <svg class="modal-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+        <p class="modal-descr">Leave your contacts and we will call you back</p>
+        <form class="modal-form">
+          <label class="modal-form-label">
+            Name
+            <input class="modal-form-input" type="text" name="username" />
+          </label>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
