@@ -554,6 +554,8 @@ img {
 
 /* #endregion */
 
+/* #region MODAL OVERLAY */
+
 .modal-overlay {
     background-color: rgba(46, 47, 66, 0.4);
     position: fixed;
@@ -685,6 +687,11 @@ img {
     outline: transparent;
     resize: none;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-text:focus {
@@ -766,3 +773,5 @@ input[type="checkbox"]:checked + .privacy-policy-label .modal-form-checkbox {
 .modal-form-button:hover, .modal-form-button:focus {
     background-color: #404bbf;
 }
+
+/* #endregion */
